@@ -1,0 +1,52 @@
+.bg-square {
+    background-color: #EEEEEE;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+img {
+    display: block;
+    height: auto;
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.photo-subtext {
+    display: block;
+    height: auto;
+    max-width: 82%;
+    padding-top: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+}
+
+ul {
+    text-align: left;
+    margin-top: 12px;
+    margin-left: 75px;
+}
+.quote {
+    background: #f9f9f9;
+    border-left: 10px solid #ccc;
+    margin: 0.5em 159px;
+    padding: -0.3em 10px;
+    quotes: "\201C""\201D""\2018""\2019";
+    display: inline-block;
+    border: solid grey 3px
+
+}
+.quote:before {
+    color: #ccc;
+    content: open-quote;
+    font-size: 4em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
+}
+.credit{
+    text-align: center;
+    margin-top: 20px
+}
